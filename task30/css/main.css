@@ -1,0 +1,38 @@
+.wrapper{
+    font-family: "微软雅黑";
+    position: relative;
+    display: table;
+    border-collapse:separate;
+    border-spacing:5px;
+
+}
+.row{
+    display: table-row;
+    margin:10px;
+}
+
+.wrapper span{
+    display: table-cell;
+    text-align: right;
+
+}
+
+.import{
+    border:1px solid gray;
+    display: table-cell;
+    height:20px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.correct{
+    border-color: green;
+}
+
+.error{
+    border-color:red;
+}
+
+.alert{
+    border-color: gray;
+}

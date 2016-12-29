@@ -1,0 +1,85 @@
+#root{
+    position: relative;
+    width:800px;
+    height:400px;
+    border:1px solid black;
+    margin-right:auto;
+    margin-left:auto;
+
+}
+
+#leftN,#rightN{
+    position: absolute;
+    width:300px;
+    height:300px;
+    border:1px solid green;
+    display: inline-block;
+}
+
+#leftN{
+    top:50px;
+    left:50px;
+}
+
+#rightN{
+    top:50px;
+    right:50px;
+}
+
+#floor1_ll,#floor1_lr,#floor1_rl,#floor1_rr{
+    position: absolute;
+    width:100px;
+    height:200px;
+    border:1px solid blue;
+    display: inline-block;
+}
+
+#floor1_ll,#floor1_rl{
+    top:50px;
+    left:25px;
+}
+
+#floor1_lr,#floor1_rr{
+    top:50px;
+    right:25px;
+}
+
+#floor2_lll,#floor2_lrl,#floor2_rll,#floor2_rrr,#floor2_llr,#floor2_lrr,#floor2_rlr,#floor2_rrl{
+    position: absolute;
+    width:25px;
+    height:150px;
+    border:1px solid red;
+    display: inline-block;
+}
+
+#floor2_lll,#floor2_lrl,#floor2_rll,#floor2_rrl{
+    top:25px;
+    left:15px;
+}
+#floor2_rrr,#floor2_llr,#floor2_lrr,#floor2_rlr{
+    top:25px;
+    right:15px;
+}
+
+
+#button{
+    position: relative;
+    width:800px;
+    height:200px;
+    border:1px solid black;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#button button{
+    position: absolute;
+    width:150px;
+    height:150px;
+    border-radius: 100px;
+    outline:none;
+}
+
+#button1{
+    top:25px;
+    left:20px;
+}

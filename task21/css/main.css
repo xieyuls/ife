@@ -1,0 +1,50 @@
+#tag{
+    border-radius: 80px;
+    border-color: red red red red;
+    outline: none;
+    width:250px;
+    height:50px;
+    box-shadow: none;
+}
+
+.tagItem{
+    position: relative;
+    background: #6495ED;
+    margin:10px;
+    border:1px solid;
+    border-color:aqua;
+    width:120px;
+    height:120px;
+    text-align:center;
+    line-height:120px;
+    border-radius: 60px;
+    display:inline-block;
+    overflow:hidden;
+    transition: 0.5s;
+}
+
+.tagItem span{
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+.tagItem span:before{
+    content:"删除:";
+    opacity: 0;
+    position:absolute;
+    left:-20px;
+}
+
+.tagItem:hover{
+    background: #90EE90;
+    color: white;
+}
+
+.tagItem:hover span{
+    padding-left: 40px;
+}
+
+.tagItem:hover span:before{
+    opacity: 1;
+    left:0px;
+}
