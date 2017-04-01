@@ -1,5 +1,5 @@
 /**
- * Created by JIA on 2016/12/26.
+ * Created by JIA on 2016/8/26.
  */
 var button1=document.getElementById("button1");
 var timer=null;
