@@ -1,5 +1,5 @@
 /**
- * Created by zjf on 2016/12/21.
+ * Created by zjf on 2016/8/21.
  */
 var bar=document.getElementById("bar");
 var tag=document.getElementById("tag");
