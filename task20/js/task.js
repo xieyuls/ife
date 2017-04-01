@@ -1,5 +1,5 @@
 /**
- * Created by Xieyu on 2016/12/19.
+ * Created by Xieyu on 2016/8/19.
  */
     var aqidata=[];
     //将事件封装进一个构造函数内，避免污染全局变量
